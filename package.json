@@ -1,0 +1,19 @@
+{
+  "name": "rspack-loader-chain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Rspack scaffold that bundles three TypeScript files.",
+  "scripts": {
+    "start": "rm -r rspack-cache && node start.js"
+  },
+  "devDependencies": {
+    "@rspack/core": "^2.0.0-rc.2",
+    "@rspack/dev-server": "^2.0.0-rc.3",
+    "@swc/core": "^1.15.26",
+    "oxfmt": "^0.45.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@10.17.1"
+}
