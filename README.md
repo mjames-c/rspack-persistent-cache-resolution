@@ -1,5 +1,3 @@
-# Rspack Loader Chain
-
 Minimal Rspack scaffold that runs a dev server with `ts-node` and a persistent cache
 
 ```bash
