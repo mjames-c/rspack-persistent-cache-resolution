@@ -1,4 +1,4 @@
-Minimal Rspack scaffold that runs a dev server with `ts-node` and a persistent cache
+Minimal Rspack scaffold that runs a dev server with `ts-node` and a persistent cache. Demonstrates a bug in Rspack file cache resolver.
 
 ```bash
 # Install dependencies
@@ -8,7 +8,7 @@ pnpm install
 pnpm start
 ```
 
-Warning:
+Warning/bug:
 
 ```bash
 LOG from rspack.persistentCache
